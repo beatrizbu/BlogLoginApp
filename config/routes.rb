@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
 
-resources :articles
+resources :articles do
+  resources :comments
+end
 root 'welcome#index'
 
 # article GET  /articles/:id(.:format)  articles#show
