@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-
+ruby '2.2.3'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.4'
 # Makes the password digest, has_secure_password uses a state-of-the-art hash function called bcrypt.
