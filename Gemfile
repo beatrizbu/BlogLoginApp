@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.4'
 # Makes the password digest, has_secure_password uses a state-of-the-art hash function called bcrypt.
-gem 'bcrypt' '3.1.10'
+gem 'bcrypt'
 # Use sqlite3 as the database for Active Record
 gem 'pg'
 # Use SCSS for stylesheets
