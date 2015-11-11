@@ -1,9 +1,11 @@
 Rails.application.routes.draw do
 
-  get 'users/new'
+  get 'sessions/new'
 
+get 'signup'  => 'users#new'
+resources :users
 resources :articles do
-  resources :comments
+resources :comments
 end
 root 'welcome#index'
 
